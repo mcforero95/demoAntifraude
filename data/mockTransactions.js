@@ -1,0 +1,61 @@
+const transactions = [
+    {
+        userId: 'user1',
+        phoneNumber: '+573004744870',
+        lastTransactionAmount: 100,
+        lastTransactionCity: 'Madrid',
+        lastTransactionMerchant: 'Supermercado XYZ',
+        highestTransactionAmountLastMonth: 500,
+        lastTransactionDate: '2023-10-01',
+        lastTransferBeneficiary: 'Juan Perez',
+        lastTransferAmount: 200,
+        lastATMWithdrawalCity: 'Barcelona',
+        lastATMWithdrawalAmount: 50,
+        lastOnlinePurchaseMerchant: 'Amazon',
+        lastOnlinePurchaseAmount: 150,
+        lastTransferDate: '2023-09-25',
+        lastTransferBank: 'Banco ABC',
+        lastSupermarketPurchaseAmount: 75,
+        lastTransferCity: 'Valencia'
+    },
+    {
+        userId: 'user2',
+        phoneNumber: '+573004744870',
+        lastTransactionAmount: 200,
+        lastTransactionCity: 'Barcelona',
+        lastTransactionMerchant: 'Tienda ABC',
+        highestTransactionAmountLastMonth: 300,
+        lastTransactionDate: '2023-10-02',
+        lastTransferBeneficiary: 'Maria Lopez',
+        lastTransferAmount: 100,
+        lastATMWithdrawalCity: 'Madrid',
+        lastATMWithdrawalAmount: 60,
+        lastOnlinePurchaseMerchant: 'eBay',
+        lastOnlinePurchaseAmount: 120,
+        lastTransferDate: '2023-09-26',
+        lastTransferBank: 'Banco XYZ',
+        lastSupermarketPurchaseAmount: 80,
+        lastTransferCity: 'Sevilla'
+    },
+    {
+        userId: 'user3',
+        phoneNumber: '+573004744870',
+        lastTransactionAmount: 300,
+        lastTransactionCity: 'Valencia',
+        lastTransactionMerchant: 'Restaurante 123',
+        highestTransactionAmountLastMonth: 400,
+        lastTransactionDate: '2023-10-03',
+        lastTransferBeneficiary: 'Carlos Martinez',
+        lastTransferAmount: 150,
+        lastATMWithdrawalCity: 'Sevilla',
+        lastATMWithdrawalAmount: 70,
+        lastOnlinePurchaseMerchant: 'AliExpress',
+        lastOnlinePurchaseAmount: 130,
+        lastTransferDate: '2023-09-27',
+        lastTransferBank: 'Banco DEF',
+        lastSupermarketPurchaseAmount: 90,
+        lastTransferCity: 'Madrid'
+    }
+];
+
+module.exports = transactions;
